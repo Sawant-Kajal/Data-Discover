@@ -16,7 +16,7 @@ def fetch_data(query):
     return search_results
 
 # Streamlit app
-st.title("Web Data Retriever")
+st.title("Web Data Discover")
 query = st.text_input("Enter your query:")
 submit = st.button("submit")
 
